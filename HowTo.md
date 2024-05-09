@@ -47,7 +47,6 @@ Markdown language is very easy to learn, use the link provided on point 2 under 
 
 This is your menu, navigation pane on the left side of the website. Once you have added a markdown file to your repository you need to add the file here so that its contents are included. Follow the existing formatting.
 
-
 ## Enable Github Pages to turn the Repository into a Website
 
 1. In your repository click on 'Settings'
@@ -68,7 +67,9 @@ This is your menu, navigation pane on the left side of the website. Once you hav
 
 6. You'll now see your URL such as https://coweater.github.io/mysrd/
 
-![Website-Step6](/_media/Website-Step6.png)
+![Website-Step6](./_media/Website-Step6.png)
+
+7. Edit the "CNAME" file and change its URL as seen before.
 
 
 ## Changing Fonts
