@@ -115,3 +115,27 @@ Use Material Icons for more free icons:
 ```markup
 <span class="material-icons">face</span>
 ```
+
+## LaTeX with MathJax
+
+If needed to use some formulas, you can use [Scruel's docsify-latex plugin][1] with MathJax syntax.
+
+For inline math use:
+
+```EXAMPLE
+This $ e = mc^2 $ is Einstein's formula.
+```
+
+For display (block) math:
+
+```EXAMPLE
+This is Einstein's formula:
+
+$$
+E=mc^2
+$$
+```
+
+It's possible to replace `$` and `$$` symbols by custom ones, read [plugin documentaion][1].
+
+[1]: https://scruel.github.io/docsify-latex
