@@ -11,9 +11,9 @@
 - Updated How To to include CNAME file, and fixed url in CNAME file
 - Deleted "_media/Thumbs.db" useless file
 - Fixed URLs and punctuation in README
+- Added docsify navbar fixed plugin
 - Added navbar and updated How To and index to include navbar
 - Added custom logo and updated index to enable logo by default
-- Updated index to include repository URL by default (GitHub's cat at top-right)
 - Updated index to make easy to translate flexible alert labels
 
 ### Bug Fixes
