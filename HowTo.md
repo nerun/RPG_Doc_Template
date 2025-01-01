@@ -6,15 +6,13 @@
 
 3. You can do this whole process through the browser without knowing git. Though  learning github desktop will allow you to test any changes locally before deploying them live for the world to see.
 
-> If you have a domain name registered, you can use this with this process to create an SRD like I have https://srd.7thextinctionrpg.com
-
 # The Process
 
 ## Creating the Repository on Github
 
 1. Login to Github
 
-2. Navigate to the public template https://github.com/7thExtinctionrpg/RPG_SRD_Template
+2. Navigate to the public template https://github.com/nerun/RPG_SRD_Template
 
 3. Click "Use this template"
 
@@ -39,7 +37,7 @@ It will take 5-30 seconds to copy the template, then you'll have your own copy.
 
 ### *.md Files
 
-.md files are markdown files, Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Depending on the size of your content you can either place all your game's information in a single *.md file, or like I have at [7thextinctionrpg.com](https://7thextinctionrpg.com) create separate files for each chapter. The "sample.md" provides some formatting examples. 
+.md files are markdown files, Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Depending on the size of your content you can either place all your game's information in a single *.md file, or create separate files for each chapter. The "sample.md" provides some formatting examples. 
 
 Markdown language is very easy to learn, use the link provided on point 2 under Prerequisites above for a full list of syntax. 
 
@@ -72,9 +70,6 @@ This is your top navigation bar, it works the same as _sidebar.md but allows for
 6. You'll now see your URL such as https://coweater.github.io/mysrd:
 
 ![Website-Step6](_media/Website-Step6.png)
-
-7. Edit the "CNAME" file and change its URL as seen before.
-
 
 ## Changing Fonts
 
