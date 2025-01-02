@@ -5,3 +5,4 @@
 ---
 
 - [Changelog](Changelog.md)
+- [License](LICENSE.md)

@@ -3,6 +3,10 @@
 > [!Note]
 > *Nerun's fork changelog.*
 
+## v0.6.0
+*2nd Jan 25*
+- Responsiveness adjustments.
+
 ## v0.5.0
 *31th Dec 24 - 1st Jan 25*
 
