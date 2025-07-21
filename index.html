@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap">
-
-<!-- Fontawesome -->
-<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css" />
-<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
-<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
-<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
-
-<!-- Material Icons -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
-    title="docsify-darklight-theme"
-    type="text/css"
-/>
-<link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
-
-<!-- Collapsable Menu: arrow style -->
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
-
-<!-- Collapsable Menu: folder style
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
--->
-
-<!-- docsify-navbar-fixed -->
-<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/LIGMATV/docsify-navbar-fixed/navbar-fixed.css">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-    <meta name="rating" content="18 years" />
-    <!-- Replace with your own title and description. -->
+    <meta name="rating" content="18 years">
     <title>Replace with your own title</title>
     <meta name="description" content="Replace with your own description.">
     <link rel="icon" href="assets/img/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css">
+    <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/brands.css">
+    <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css">
+    <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css">
+
+    <!-- Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Docsify Darklight Theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" title="docsify-darklight-theme">
+
+    <!-- Collapsable Menu: arrow style -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css">
+
+    <!-- Collapsable Menu: folder style
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css">
+    -->
+
+    <!-- docsify-navbar-fixed -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/LIGMATV/docsify-navbar-fixed/navbar-fixed.css">
+
+    <!-- Local style -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -48,7 +47,7 @@
         // Docsify Configuration (see https://docsify.js.org/#/configuration)
         window.$docsify = {
             name: 'Menu',
-            logo: '/assets/img/logo.png width=180px',
+            logo: 'assets/img/logo.png width=180px',
             
             // Configure the repository url, or a string of username/repo,
             // to add the GitHub Corner widget in the top right corner of the site.
@@ -107,6 +106,8 @@
     <!-- Required -->
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+    <!-- Flexible alerts -->
     <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
 
     <!-- Fontawesome -->
