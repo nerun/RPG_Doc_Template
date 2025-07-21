@@ -23,7 +23,7 @@
 - Added collapsable menu in folder style plugin (commented)
 - Added LaTeX with MathJax plugin and updated How To
 - Updated How To to include CNAME file, and fixed url in CNAME file
-- Deleted "media/Thumbs.db" useless file
+- Deleted "assets/img/Thumbs.db" useless file
 - Fixed URLs and punctuation in README
 - Added docsify navbar fixed plugin
 - Added navbar and updated How To and index to include navbar
