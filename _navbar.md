@@ -1,5 +1,5 @@
 <!-- Logo -->
-[![](./_media/favicon.png)](/)
+[![](./media/favicon.png)](/)
 
 <!-- Title -->
 RPG SRD Template

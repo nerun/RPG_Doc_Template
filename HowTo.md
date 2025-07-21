@@ -16,13 +16,13 @@
 
 3. Click "Use this template"
 
-![Step3](_media/Step3.png)
+![Step3](media/Step3.png)
 
 4. Select "Create a new repository"
 
 5. Enter a repository name
 
-![Step5](_media/Step5.png)
+![Step5](media/Step5.png)
 
 6. Select 'Private' 
 
@@ -53,11 +53,11 @@ This is your top navigation bar, it works the same as _sidebar.md but allows for
 
 1. In your repository click on 'Settings':
 
-![Website-Step1](_media/Website-Step1.png)
+![Website-Step1](media/Website-Step1.png)
 
 2. Select 'Pages' on the left hand side menu:
 
-![Website-Step2](_media/Website-Step2.png)
+![Website-Step2](media/Website-Step2.png)
 
 3. If you haven't made the repository 'public', you have two choices:
     a. Make the repository public which will then allow you to use Github pages to host your SRD Website for free.
@@ -69,11 +69,11 @@ This is your top navigation bar, it works the same as _sidebar.md but allows for
 
 6. You'll now see your URL such as https://coweater.github.io/mysrd:
 
-![Website-Step6](_media/Website-Step6.png)
+![Website-Step6](media/Website-Step6.png)
 
 ## Changing Fonts
 
-1. Edit the `/_assets/style.css` file.
+1. Edit the `/assets/style.css` file.
 
 2. Under the "body section" you'll find siteFont & headingFont.
 
