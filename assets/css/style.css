@@ -17,8 +17,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar-toggle {
-    top: 120px;
+    position: fixed;
+    margin-top: 80px;
+    left: 300px;
     bottom: unset;
+    transition: left 0.3s ease;
+    z-index: 9999; /* Ensure it always stays in front of the content.*/
+}
+
+body.close .sidebar-toggle {
+    left: 10px;
 }
 
 @media screen and (max-width: 770px) {
@@ -34,21 +42,19 @@ h1, h2, h3, h4, h5, h6 {
     .search .input-wrap {
         margin-top: 10px!important;
     }
-    .sidebar-toggle {
-        top: 65px;
+    .app-nav {
+      margin-top: -20px !important;
     }
     body {
         margin-top: 20px;
     }
-    .app-nav {
-      margin-top: -20px !important;
-    }
-}
-
-@media screen and (max-width: 482px) {
     .sidebar-toggle {
-        top: unset;
-        bottom: 0;
+        margin-top: 50px;
+        left: 10px;
+    }
+    body.close .sidebar-toggle {
+        margin-top: 40px;
+        left: 300px;
     }
 }
 
@@ -58,5 +64,13 @@ h1, h2, h3, h4, h5, h6 {
     }
     .app-nav {
       margin-top: -45px !important;
+    }
+    .sidebar-toggle {
+        margin-top: 45px;
+        left: 10px;
+    }
+    body.close .sidebar-toggle {
+        margin-top: 35px;
+        left: 300px;
     }
 }
