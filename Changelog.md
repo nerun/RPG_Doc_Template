@@ -1,7 +1,14 @@
 # Changelog
 
-> [!Note]
+> [!Note|style:flat]
 > *Nerun's fork changelog.*
+
+## v0.7.0
+*21th Jul 25*
+- Renamed and moved folders:
+  - _assets/ &rarr; assets/
+  - _media/ &rarr; assets/img/
+- Updated hamburger toggle button for better placement.
 
 ## v0.6.0
 *2nd Jan 25*
@@ -32,7 +39,7 @@
 
 &nbsp;
 
-> [!Note]
+> [!Note|style:flat]
 > *From here down is Coweater's changelog (7th Extinction), the original author.*
 
 ## V0.3.0
