@@ -2,7 +2,7 @@
 [![](./assets/img/favicon.png)](/)
 
 <!-- Title -->
-RPG SRD Template
+RPG Doc Template
 
 * Navbar
   * Customize this navbar in file "`_navbar.md`"

@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
     <meta name="rating" content="18 years">
-    <title>Replace with your own title</title>
+    <!-- Replace with your own description -->
+    <title>RPG Doc Template</title>
     <meta name="description" content="Replace with your own description.">
     <link rel="icon" href="assets/img/favicon.png">
 
@@ -26,18 +27,18 @@
     <!-- Docsify Darklight Theme -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" title="docsify-darklight-theme">
 
+    <!-- Local style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
     <!-- Collapsable Menu: arrow style -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css">
+    <link rel="stylesheet" href="assets/css/sidebar-arrow.css">
 
     <!-- Collapsable Menu: folder style
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css">
+    <link rel="stylesheet" href="assets/css/sidebar-folder.css">
     -->
 
     <!-- docsify-navbar-fixed -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/LIGMATV/docsify-navbar-fixed/navbar-fixed.css">
-
-    <!-- Local style -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/navbar-fixed.css">
 </head>
 
 <body>
@@ -49,9 +50,9 @@
             name: 'Menu',
             logo: 'assets/img/logo.png width=180px',
             
-            // Configure the repository url, or a string of username/repo,
-            // to add the GitHub Corner widget in the top right corner of the site.
-            //repo: 'nerun/RPG_SRD_Template',
+            // Configure the repository url, or a string of username/repo, to
+            // add the GitHub Corner widget in the top right corner of the site.
+            //repo: 'nerun/RPG_Doc_Template',
             
             // load from _navbar.md
             loadNavbar: true,
@@ -81,8 +82,8 @@
                 displayMath  : [['$$', '$$']],
             },
             
-            //Flexible Alerts
-            //Use this to translate alert labels if you need to.
+            // Flexible Alerts
+            // Use this to translate alert labels if you need to.
             'flexible-alerts': {
                 note: {
                     label: "Note"
@@ -122,8 +123,8 @@
     <!-- Footnotes -->
     <script src="//cdn.jsdelivr.net/npm/@sy-records/docsify-footnotes/lib/index.min.js"></script>
 
-    <!-- Collapsable Menu -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <!-- Collapsable Menu (local copy) -->
+    <script src="assets/js/docsify-sidebar-collapse.min.js"></script>
 
     <!-- LaTeX & MathJax -->
     <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
