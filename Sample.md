@@ -70,7 +70,7 @@ These alerts are **not part of the official Markdown standard**. They are a GitH
 
 ---
 
-## Docstify Flexible Alerts
+## Docsify Flexible Alerts
 
 These alerts are **only supported by Docsify with its Flexible Alerts plugin**. This syntax is not recognized by GitHub or standard Markdown parsers and will show as plain text elsewhere. Docsify allows customizing the alert styles using this feature.
 
