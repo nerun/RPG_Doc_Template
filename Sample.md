@@ -1,6 +1,12 @@
 # Sample Heading 1
 
-Learn more about [Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github).
+Block quote is used for citation and highlight:
+
+> "All that is gold does not glitter,  
+> Not all those who wander are lost;  
+> The old that is strong does not wither,  
+> Deep roots are not reached by the frost."  
+> — J.R.R. Tolkien, *The Lord of the Rings*
 
 ## Heading 2
 
@@ -12,35 +18,61 @@ Learn more about [Writing on GitHub](https://docs.github.com/en/get-started/writ
 
 ###### Heading 6
 
-**BOLD**
+---
 
-*Italics*
+## Italic and Bold
+
+*Live long and prosper.*  
+— Mr. Spock
+
+**Do. Or do not. There is no try.**  
+— Master Yoda
+
+---
 
 ## Sample Table
 
-| Column 1 | Column 2 |
+| Column 1 (aligned center) | Column 2 (aligned right) |
 |:--------:|---------:|
 | 1 | Lorem ipsum dolor sit amet |
 | 2 | Morbi auctor, quam quis finibus commodo |
 | 3 | Quisque efficitur lacus molestie diam sodales faucibus |
 
-## Standard Alerts
+---
+
+## Standard GitHub Alerts
+
+These alerts are **not part of the official Markdown standard**. They are a GitHub-specific extension and only render with special styling on GitHub itself. Outside GitHub (in most Markdown editors or viewers), they appear as plain text inside block quotes. Docsify also supports rendering these alerts with styled formatting.
 
 > [!Note]
-> Sample Note Callout Style
+> Sample Note Callout Style  
+>  
+> "Time is an illusion. Lunchtime doubly so. For a moment, nothing happened. Then, after a second or so, nothing continued to happen."  
+> — Douglas Adams, *The Hitchhiker’s Guide to the Galaxy*
 
 > [!Tip]
-> Sample Tip Callout Style
+> Sample Tip Callout Style  
+>  
+> "With great power comes great responsibility."  
+> — Uncle Ben, *Spider-Man*
 
 > [!Warning]
-> Sample Warning Callout Style
+> Sample Warning Callout Style  
+>  
+> "I find your lack of faith disturbing."  
+> — Darth Vader, *Star Wars: Episode IV – A New Hope*
 
 > [!Attention]
-> Sample Attention Callout Style
+> Sample Attention Callout Style  
+>  
+> "Logic is the beginning of wisdom, not the end."  
+> — Mr. Spock
 
 ---
 
-## Flexible Alerts
+## Docstify Flexible Alerts
+
+These alerts are **only supported by Docsify with its Flexible Alerts plugin**. This syntax is not recognized by GitHub or standard Markdown parsers and will show as plain text elsewhere. Docsify allows customizing the alert styles using this feature.
 
 > [!Note|style:flat]
 > Sample Note Flat Style
@@ -55,6 +87,8 @@ Learn more about [Writing on GitHub](https://docs.github.com/en/get-started/writ
 > Sample Attention Flat Style
 
 Flexible Alerts customization: https://github.com/fzankl/docsify-plugin-flexible-alerts
+
+---
 
 ## Fontawesome Icons 
 
@@ -91,6 +125,8 @@ Just a small selection:
 :fa-solid fa-triangle-exclamation fa-xl:
 
 Search more free icons at https://fontawesome.com/search?ic=free&o=r
+
+---
 
 ## Material Icons
 
